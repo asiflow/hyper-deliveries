@@ -1,0 +1,19 @@
+{
+  "name": "hyper-deliveries",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small, real service where Hyper opens public pull requests for the Solutions pages — every PR carries the verification check.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  }
+}
